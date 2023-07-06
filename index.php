@@ -61,11 +61,29 @@
                     </section>
                 </section>
             </section>
-            <section class="What_To_Do_And_Requirement"></section>
+            <section class="Who_To_Attend_And_Requirement">
+                <section class="Who_to_Attend">
+                    <p>Who To Attend</p>
+                    <section>
+                        <p><i class="fa-solid fa-arrow-right" style="color: #87cefa;"></i>Educators</p>
+                        <p><i class="fa-solid fa-arrow-right" style="color: #87cefa;"></i>Goverment And Industry Personnel</p>
+                        <p><i class="fa-solid fa-arrow-right" style="color: #87cefa;"></i>Students</p>
+                        <p><i class="fa-solid fa-arrow-right" style="color: #87cefa;"></i>Other Interested Persons</p>
+                    </section>
+                </section>
+                <section class="Requirement">
+                    <p>Participants Requirement</p>
+                    <section>
+                        <p><i class="fa-solid fa-arrow-right" style="color: #87cefa;"></i>A fair Knowledge on the use of Python programming</p>
+                        <p><i class="fa-solid fa-arrow-right" style="color: #87cefa;"></i>A Personal laptop for practical sessions</p>
+                        <p><i class="fa-solid fa-arrow-right" style="color: #87cefa;"></i>Likely use of Google Collaborator</p>
+                    </section>
+                </section>
+            </section>
             <section class="Speakers" id="Speakers"></section>
-            <section class="register" id="register"></section>
+            <section class="Register" id="Register"></section>
             <section class="Accomodation" id="Accomodation"></section>
-            <section class="sponsors" id="sponsors"></section>
+            <section class="Sponsors" id="Sponsors"></section>
         </section>
     </main>
 </body>
