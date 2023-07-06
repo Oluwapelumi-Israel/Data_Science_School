@@ -1,0 +1,183 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.home
+{
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 1.5em;
+    background-image: url("Images/1569494009002.jpeg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image img
+{
+    width: 40px;
+}
+
+.image img:nth-of-type(even)
+{
+    width: 55px;
+    height: 40px;
+}
+.nav_bar
+{
+    position: relative;
+}
+
+.nav_bar img
+{
+    width: 30px;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_bar ul
+{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+    padding: 0.2em;
+    backdrop-filter: blur(20px);
+}
+
+.nav_bar ul li
+{
+    padding: 0.5em;
+}
+
+.nav_bar ul a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+
+
+@media (max-width: 376px)
+{
+    .nav_bar:hover ul
+    {
+        display: block;
+    }
+}
+
+.showcase
+{
+    margin-top: 4em;
+    width: 100%;
+}
+
+.showcase .sub_topic p
+{
+    color: white;
+    font-size: 0.6em;
+    width: 80%;
+    line-height: 1.7;
+    margin-bottom: 1.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.showcase .topic p
+{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+} 
+
+.showcase .topic p:nth-of-type(1)
+{
+    font-size: 1.7em;
+    margin-bottom: 0.2em;
+    color: rgb(135,206,250);
+}
+
+
+.related_topics
+{
+    padding: 0.5em;
+    margin-top: 5em;
+    backdrop-filter: blur(25px);
+    border-radius: 1em;
+}
+
+.related_topics p
+{
+    color: rgb(135,206,250);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+.related_topics ul
+{
+    padding-left: 1.6em;
+    margin-top: 0.5em;
+}
+
+.related_topics li
+{
+    color: white;
+    font-size: 0.8em;
+    opacity: 0.8;
+    margin-bottom: 0.5em;
+}
+
+.date_time
+{
+    padding: 0.5em;
+    margin-top: 4em;
+    backdrop-filter: blur(50px);
+    border-radius: 1em;
+}
+
+.date_time p
+{
+    margin: 1em 0 1em 0;
+    color: white;
+    font-size: 0.8em;
+}
+
+.date_time p i
+{
+    margin-right: 1.5em;
+}
+
+@media (min-width: 377px)
+{
+    .showcase, .header{
+        width: 376px;
+    }
+    
+    .home
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
