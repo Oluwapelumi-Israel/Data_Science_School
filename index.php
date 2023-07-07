@@ -21,9 +21,8 @@
                         <img src="Assets/Images/1200px-Hamburger_icon_white.svg.png" alt="">
                         <ul>
                             <li><a href="#">Speakers</a></li>
-                            <li><a href="#">Accomodation</a></li>
-                            <li><a href="#">Sponsors</a></li>
-                            <li><a href="#">Register</a></li>
+                            <li><a href="#Sponsors">Sponsors</a></li>
+                            <li><a href="#Register">Register</a></li>
                         </ul>
                     </section>
                 </section>
@@ -59,6 +58,7 @@
                         <p><i class="fa-regular fa-calendar-days" style="color: #87cefa;"></i>7<sup>th</sup> - 18<sup>th</sup>August, 2023</p>
                         <p><i class="fa-regular fa-clock" style="color: #87cefa;"></i>9am - 5pm daily</p>
                     </section>
+                    <p>NOTE: Presentations On The Use Of Data Science In Industries And Applications Will Be Accomodated</p>
                 </section>
             </section>
             <section class="Who_To_Attend_And_Requirement">
@@ -81,9 +81,77 @@
                 </section>
             </section>
             <section class="Speakers" id="Speakers"></section>
-            <section class="Register" id="Register"></section>
-            <section class="Accomodation" id="Accomodation"></section>
-            <section class="Sponsors" id="Sponsors"></section>
+            <section class="Register" id="Register">
+                <p>Registration</p>
+                <section>
+                    <table>
+                        <tr class="head">
+                            <th>TYPES</th>
+                            <th>AMOUNT</th>
+                        </tr>
+                        <tr class="body">
+                            <td>Students (Undergraduate and Masters)</td>
+                            <td>FREE</td>
+                        </tr>
+                        <tr class="body">
+                            <td>Others (Physically Present)</td>
+                            <td>#50,000</td>
+                        </tr>
+                        <tr class="body">
+                            <td>Virtual</td>
+                            <td>#25,000</td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="payment">
+                    <p>MAKE PAYMENT</p>
+                    <section>
+                        <p><span>NAME:</span>BISCOM</p>
+                        <p><span>ACCOUNT NUMBER:</span>1018691778</p>
+                        <p><span>BANK:</span>UBA</p>
+                    </section>
+                </section>
+                <section class="students">
+                    <p>STUDENTS</p>
+                    <p>The first 20 Students to Pay #12,000 shall have hostel Accomodation and launch for the duration of the school</p>
+                </section>
+                <section class="others">
+                    <p>OTHERS (PHYSICALLY PRESENT)</p>
+                    <p>The first 25 people to pay and register for the school can benefit from FREE hostel Accomodation and launch for the duration of the school</p>
+                </section>
+                <section class="link">
+                    <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfLNEbS9Xrz34jh8hzJecxb5dMl9MQcXB0g1cdXWlu2kjSofA/viewform">Click here</a> to complete registration after Payment</p>
+                </section>
+            </section>
+            <section class="Sponsors" id="Sponsors">
+                <section class="partners">
+                    <section class="img">
+                        <img src="Assets/Images/Picture1.png" alt="">
+                    </section>
+                    <section class="img">
+                        <img src="Assets/Images/Picture2.png" alt="">
+                    </section>
+                    <section class="img">
+                        <img src="Assets/Images/Picture3.png" alt="">
+                    </section>
+                    <section class="img">
+                        <img src="Assets/Images/Picture4.png" alt="">
+                    </section>
+                    <section class="img">
+                        <img src="Assets/Images/Picture5.png" alt="">
+                    </section>
+                    <section class="img">
+                        <img src="Assets/Images/Picture6.png" alt="">
+                    </section>
+                </section>
+                <section class="further_enquiry">
+                    <p>For further enquiries</p>
+                    <section class="Phone">
+                        <p><i class="fa-solid fa-phone" style="color: #87cefa;"></i> +234 803 367 6685, +234 817 713 6389.</p>
+                        <p><i class="fa-solid fa-at" style="color: #87cefa;"></i> statistics@unilag.edu.ng</p>
+                    </section>
+                </section>
+            </section>
         </section>
     </main>
 </body>

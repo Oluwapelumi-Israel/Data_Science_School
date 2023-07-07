@@ -1,3 +1,5 @@
+/* Potriat Mobile View */
+
 *
 {
     margin: 0;
@@ -76,7 +78,7 @@
 }
 
 
-@media (max-width: 700px)
+@media (max-width: 754px)
 {
     .nav_bar:hover ul
     {
@@ -142,7 +144,7 @@
 .related_topics li
 {
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
     opacity: 0.8;
     margin-bottom: 0.5em;
 }
@@ -159,7 +161,7 @@
 {
     margin: 1em 0 1em 0;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .date_time p i
@@ -191,6 +193,7 @@
     font-weight: bold;
     font-size: 2em;
     color: rgb(135,206,250);
+    /* margin-bottom: 1.5em; */
 }
 
 .Who_to_Attend section, .Requirement section
@@ -202,6 +205,7 @@
 .Who_to_Attend section p, .Requirement section p
 {
     margin-bottom: 1.7em;
+    font-size: 1em;
 }
 
 .Who_to_Attend section i, .Requirement section i
@@ -209,7 +213,150 @@
     margin-right: 0.5em;
 }
 
-@media (min-width: 701px)
+.Register
+{
+    width: 100%;
+    margin-top: 2em;
+    min-height: 70vh;
+    padding: 1.5em;
+}
+
+.Register>p
+{
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(135,206,250);
+    margin-bottom: 1.5em;
+}
+
+.Register .head th
+{
+    color: rgb(135,206,250);
+    padding: 1em;
+    font-size: 1em;
+    width: 700px;
+}
+
+.Register .head th:nth-of-type(1)
+{
+    text-align: left;
+    padding-left: 0em;
+}
+
+.Register .body td
+{
+    text-align: start;
+    padding: 0.5em;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.Register .body td:nth-of-type(2)
+{
+    text-align: center;
+}
+
+.payment, .students, .others
+{
+    margin-top: 2em;
+}
+
+.payment>p, .students p:nth-of-type(1), .others p:nth-of-type(1)
+{
+    font-weight: bold;
+    font-size: 1em;
+    color: rgb(135,206,250);
+    margin-bottom: 1.5em;
+}
+
+.payment section p
+{
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.payment section p span
+{
+    margin-right: 0.5em;
+    font-weight: 500;
+}
+
+.link
+{
+    margin-top: 2em;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.link a
+{
+    color: rgb(135,206,250);
+    text-decoration: none;
+}
+
+.students p:nth-of-type(2), .others p:nth-of-type(2)
+{
+    line-height: 1.6;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.Sponsors
+{
+    background-image: url("Images/depositphotos_272013200-stock-photo-big-data-visualization-science-background.jpg");
+}
+
+.Sponsors .partners
+{
+    margin-top: 3em;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners .img
+{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners .img:nth-of-type(3), .partners .img:nth-of-type(1)
+{
+    width: 150px;
+    height: 150px;
+}
+
+.img img
+{
+  width: 100%;
+}
+
+.further_enquiry
+{
+    padding: 1.5em;
+    color: white;
+}
+
+.further_enquiry>p
+{
+    margin-bottom: 1em;
+}
+
+.further_enquiry .Phone
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 755px)
 {
     .nav_bar img
     {
@@ -230,7 +377,7 @@
         margin-left: 1em;
     }
 
-    .nav_bar ul li:nth-of-type(4)
+    .nav_bar ul li:nth-of-type(3)
     {
         border: 3px solid rgb(135,206,250);
         margin-left: 3em;
@@ -238,12 +385,12 @@
         padding: 0.7em;
     }
 
-    .nav_bar ul li:nth-of-type(1):hover, .nav_bar ul li:nth-of-type(2):hover, .nav_bar ul li:nth-of-type(3):hover
+    .nav_bar ul li:nth-of-type(1):hover, .nav_bar ul li:nth-of-type(2):hover
     {
         border-bottom: 2px solid rgb(135,206,250);
     }
 
-    .nav_bar ul li:nth-of-type(1) a, .nav_bar ul li:nth-of-type(2) a, .nav_bar ul li:nth-of-type(3) a
+    .nav_bar ul li:nth-of-type(1) a, .nav_bar ul li:nth-of-type(2) a
     {
         color: rgb(135,206,250);
     }
@@ -259,47 +406,59 @@
         height: 60px;
     }
 
-    .header
+    .Who_To_Attend_And_Requirement, .Register
     {
-        width: 75%;
+        width: 100%;
         margin: auto;
     }
 
-    .showcase
+    .Sponsors .partners
     {
-        width: 75%;
-        margin: auto;
-        margin-top: 7em;
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        place-items: center;
     }
 
-
-    .Who_To_Attend_And_Requirement
+    .partners .img
     {
-        width: 75%;
-        margin: auto;
+        align-self: center;
     }
 
+    .further_enquiry .Phone
+    {
+        flex-direction: row;
+    }
+
+    .further_enquiry .Phone p:nth-of-type(2)
+    {
+        margin-left: 1.5em;
+    }
+
+    .further_enquiry .Phone p i
+    {
+        margin-right: 0.5em;
+    }
 }
 
 @media (min-width: 1000px)
 {
     .header
     {
-        width: 80%;
+        width: 85%;
         margin: auto;
     }
 
     .showcase
     {
-        width: 80%;
+        width: 85%;
         margin: auto;
         margin-top: 7em;
     }
 
 
-    .Who_To_Attend_And_Requirement
+    .Who_To_Attend_And_Requirement, .Register
     {
-        width: 80%;
+        width: 85%;
         margin: auto;
     }
 }
@@ -363,7 +522,7 @@
         font-size: 2em;
     }
 
-    .Who_To_Attend_And_Requirement
+    .Who_To_Attend_And_Requirement, .Register
     {
         width: 80%;
         margin: auto;
@@ -377,7 +536,7 @@
         right: 28em;
     }
 
-    .Who_To_Attend_And_Requirement
+    .Who_To_Attend_And_Requirement, .Accomodation
     {
         display: flex;
         justify-content: space-between;
